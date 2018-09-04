@@ -26,6 +26,7 @@ Pod::Spec.new do |s|
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
 			自己生成key测试版本,然后调试是否成功与否
+一般，在组件化之路上，不可避免的会用到 私有库中引用私有库，即 s.dependency "私有库"。网上的资料我没有找到完整的、可行的流程，我断断续续的折腾了3、4天才终于解决了这个问题，特来次记录下：
                    DESC
 
   s.homepage     = "https://github.com/caiyanpeng/cai_test"
@@ -118,7 +119,7 @@ Pod::Spec.new do |s|
   #
 
   # s.framework  = "SomeFramework"
-  # s.frameworks = "SomeFramework", "AnotherFramework"
+  # s.frameworks = "UIKit", "XCTest"
 
   # s.library   = "iconv"
   # s.libraries = "iconv", "xml2"

@@ -15,6 +15,8 @@
 		C455F2EA213E8FE600424488 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C455F2E9213E8FE600424488 /* main.m */; };
 		C455F2F4213E8FE600424488 /* ccTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C455F2F3213E8FE600424488 /* ccTestTests.m */; };
 		C455F2FF213E8FE600424488 /* ccTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C455F2FE213E8FE600424488 /* ccTestUITests.m */; };
+		C455F30E213E963F00424488 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C455F30D213E963F00424488 /* UIKit.framework */; };
+		C455F310213E964A00424488 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C455F30F213E964A00424488 /* XCTest.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		C455F2FA213E8FE600424488 /* ccTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ccTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C455F2FE213E8FE600424488 /* ccTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ccTestUITests.m; sourceTree = "<group>"; };
 		C455F300213E8FE600424488 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C455F30D213E963F00424488 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C455F30F213E964A00424488 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C455F310213E964A00424488 /* XCTest.framework in Frameworks */,
+				C455F30E213E963F00424488 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +91,7 @@
 				C455F2F2213E8FE600424488 /* ccTestTests */,
 				C455F2FD213E8FE600424488 /* ccTestUITests */,
 				C455F2D8213E8FE400424488 /* Products */,
+				C455F30C213E963F00424488 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -130,6 +137,15 @@
 				C455F300213E8FE600424488 /* Info.plist */,
 			);
 			path = ccTestUITests;
+			sourceTree = "<group>";
+		};
+		C455F30C213E963F00424488 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C455F30F213E964A00424488 /* XCTest.framework */,
+				C455F30D213E963F00424488 /* UIKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
