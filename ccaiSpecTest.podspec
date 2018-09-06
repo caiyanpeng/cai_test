@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  s.name         = "ccTest"
+  s.name         = "ccaiSpecTest"
   s.version      = "0.0.1"
   s.summary      = "first start of podspec."
 
@@ -92,7 +92,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "ccTest", "ccTest/**/*.{h,m}"
+  s.source_files  = "ccaiSpecTest", "ccaiSpecTest/**/*.{h,m}"
  # s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
